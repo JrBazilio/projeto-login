@@ -47,24 +47,27 @@ main {
     max-width: 90%;
 }
 
+.input-login {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
 form input {
     padding: 15px;
     border: none;
     height: 50%;
     width: 100%;
     font-size: 1.1rem;
-}
-
-.input-login {
-    background-color: gray;
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .login-icon {
     padding: 11.4px;
-    background-color: pink;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #F26A1B;
 }
 
 #passwordContainer {
@@ -76,4 +79,31 @@ form button {
     padding: 20px;
     margin-bottom: 10px;
     box-sizing: border-box;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+#enter {
+    background-color: #300FA6;
+    color: white;
+    border: 2px solid #300FA6;
+}
+
+#newPassword {
+    color: #300FA6;
+    background-color: transparent;
+    border: 2px solid #300FA6;
+}
+
+button .material-symbols-outlined {
+  vertical-align: -0.2em;
 }
