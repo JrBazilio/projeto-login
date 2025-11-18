@@ -1,1 +1,79 @@
 @charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%
+}
+
+body {
+    position: relative;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 400px;
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+#image > img {
+    display: block;
+    margin: auto;
+    max-width: 350px;
+    width: 100%;  
+}
+
+#formLogin h1 {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#formLogin p {
+    display: block;
+    margin: auto;
+    text-align: center;
+    line-height: 1.3rem;
+    margin-bottom: 20px;
+    max-width: 90%;
+}
+
+form input {
+    padding: 15px;
+    border: none;
+    height: 50%;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+.input-login {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.login-icon {
+    padding: 11.4px;
+    background-color: pink;
+}
+
+#passwordContainer {
+    margin-bottom: 30px;
+}
+
+form button {
+    width: -webkit-fill-available;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
